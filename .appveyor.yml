@@ -18,7 +18,7 @@ environment:
   au_test_groups: 1
 
   # Github token to commit pushed packages to repository
-  github_user_repo: {github_user}/{repository}
+  github_user_repo: C4illin/Qalculate-ChocoInstall
   github_api_key:
     secure: 6Yf507R6R3aV/L23vIUxiSfyHWBpPq96nUmmpnxk/0+8Xt/m3ZZGl2nIHr7c54rA #https://ci.appveyor.com/tools/encrypt
 

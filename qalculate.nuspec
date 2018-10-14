@@ -5,7 +5,7 @@
     <id>qalculate</id>
     <version>2.6.2</version>
     <title>Qalculate!</title>
-    <owners>https://github.com/Qalculate</owners>
+    <owners>C4illin</owners>
     <authors>Hanna Knutsson</authors>
     <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
     <projectUrl>https://qalculate.github.io/</projectUrl>
@@ -19,7 +19,7 @@ Qalculate! is a multi-purpose cross-platform desktop calculator. It is simple to
     <releaseNotes>https://github.com/Qalculate/libqalculate/releases</releaseNotes>
     <copyright />
     <tags>qalculate qalculate! calculator calculation algebra</tags>
-    <packageSourceUrl>https://github.com/Qalculate/libqalculate</packageSourceUrl>
+    <packageSourceUrl>https://github.com/C4illin/Qalculate-ChocoInstall</packageSourceUrl>
     <projectSourceUrl>https://github.com/Qalculate</projectSourceUrl>
     <docsUrl>https://qalculate.github.io/manual/index.html</docsUrl>
   </metadata>

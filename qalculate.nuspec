@@ -7,7 +7,7 @@
     <title>Qalculate!</title>
     <owners>C4illin</owners>
     <authors>Hanna Knutsson</authors>
-    <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/Qalculate/libqalculate/master/COPYING</licenseUrl>
     <projectUrl>https://qalculate.github.io/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/C4illin/Qalculate-ChocoInstall@1/icon/qalculate-icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

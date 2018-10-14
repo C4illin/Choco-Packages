@@ -20,7 +20,7 @@ Qalculate! is a multi-purpose cross-platform desktop calculator. It is simple to
     <copyright />
     <tags>qalculate qalculate! calculator calculation algebra</tags>
     <dependencies>
-      <dependency id="gnuplot" version="1.7"/>
+      <dependency id="gnuplot" version="1.7.0"/>
     </dependencies>
     <packageSourceUrl>https://github.com/C4illin/Qalculate-ChocoInstall</packageSourceUrl>
     <projectSourceUrl>https://github.com/Qalculate</projectSourceUrl>

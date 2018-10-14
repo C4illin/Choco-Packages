@@ -9,7 +9,7 @@
     <authors>Hanna Knutsson</authors>
     <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
     <projectUrl>https://qalculate.github.io/</projectUrl>
-    <iconUrl>https://qalculate.github.io/images/qalculate-icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/C4illin/Qalculate-ChocoInstall@1/icon/qalculate-icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
 Qalculate! is a multi-purpose cross-platform desktop calculator. It is simple to use but provides power and versatility normally reserved for complicated math packages, as well as useful tools for everyday needs (such as currency conversion and percent calculation). Features include a large library of customizable functions, unit calculations and conversion, symbolic calculations (including integrals and equations), arbitrary precision, interval arithmetic, plotting, and a user-friendly interface (GTK+ and CLI).

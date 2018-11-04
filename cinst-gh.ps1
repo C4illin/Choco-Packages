@@ -12,7 +12,7 @@
      iwr https://goo.gl/SZ9c3m | iex; cinst-gh furmark --force
 #>
 function cinst-gh {
-    $Repo = "https://github.com/majkinetor/au-packages/tree/master" 
+    $Repo = "https://github.com/C4illin/Choco-Packages/tree/master" 
 
     $name = $args[0]
     $download_page = iwr $Repo/$name -UseBasicParsing

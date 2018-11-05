@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'http://github.com/Qalculate/libqalculate/releases'
+$releases = 'https://github.com/Qalculate/libqalculate/releases'
 
 function global:au_SearchReplace {
    @{

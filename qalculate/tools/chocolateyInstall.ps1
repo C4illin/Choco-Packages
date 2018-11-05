@@ -3,7 +3,7 @@
 $packageArgs = @{
   packageName            = 'qalculate'
   fileType               = 'MSI'
-  url                    = 'https://github.com/Qalculate/libqalculate/releases/download/v2.6.2/qalculate-2.6.2.msi'
+  url                    = 'https://github.com/Qalculate/libqalculate/releases/download/v2.8.0/qalculate-2.8.0.msi'
   checksum               = ''
   checksumType           = 'sha256'
   silentArgs             = '/qn'

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>qalculate</id>
-    <version>2.8.0</version>
+    <version>2.6.2</version>
     <title>Qalculate!</title>
     <owners>C4illin</owners>
     <authors>Hanna Knutsson</authors>
@@ -12,8 +12,9 @@
     <iconUrl>https://cdn.jsdelivr.net/gh/C4illin/Choco-Packages@1/icon/qalculate-icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
-Qalculate! is a multi-purpose cross-platform desktop calculator. It is simple to use but provides power and versatility normally reserved for complicated math packages, as well as useful tools for everyday needs (such as currency conversion and percent calculation). Features include a large library of customizable functions, unit calculations and conversion, symbolic calculations (including integrals and equations), arbitrary precision, interval arithmetic, plotting, and a user-friendly interface (GTK+ and CLI).
+Qalculate! is a multi-purpose cross-platform desktop calculator. It is simple to use but provides power and versatility normally reserved for complicated math packages, as well as useful tools for everyday needs (such as currency conversion and percent calculation). Features include a large library of customizable functions, unit calculations and conversion, symbolic calculations (including integrals and equations), arbitrary precision, interval arithmetic, plotting, and a user-friendly interface (GTK+ and CLI). 
 
+Gnuplot is required for plotting.
     </description>
     <summary>the ultimate desktop calculator</summary>
     <releaseNotes>https://github.com/Qalculate/libqalculate/releases</releaseNotes>

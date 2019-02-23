@@ -22,7 +22,7 @@ function global:au_GetLatest {
 	$version = ($url -split '/' | select -last 1 -skip 1).substring(1)
 
     @{
-        URL32   = 'https://github.com' + $url
+        URL32   = $url
         Version = $version
     }
 }

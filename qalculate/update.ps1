@@ -22,7 +22,7 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $url64  = $download_page.links | ? href -match '.msi$' | % href | select -First 1
-    $url32   = $url64 -replace '-x64.msi$', '.msi'
+    $url32   = $url64 -replace '-x64.msi$', '-i386.msi'
 	$version = ($url64 -split '/' | select -last 1 -skip 1).substring(1)
 
     @{

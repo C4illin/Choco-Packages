@@ -25,10 +25,10 @@ environment:
 
   # Mail credentials - for error notifications
   mail_user:
-    secure: 8GxvR0F8MhU38IY4oufefS/ZwBNtDNRK2nrU6R8AuU4= #https://ci.appveyor.com/tools/encrypt
+    secure: 4aag0OJSPOT8YajE554v4/iLGV98q+b4OpFGtw7niFE=
   mail_pass:
-    secure: lG4cgmYr2FsbEbFjflXkdTYuKlanszfyfOgpA72FjRU= #https://ci.appveyor.com/tools/encrypt
-  mail_server: smtp.gmail.com
+    secure: gXiEvDL/OWIS0sCTvJZqyg==
+  mail_server: mail.cock.li
   mail_port: 587
   mail_enablessl: true
 

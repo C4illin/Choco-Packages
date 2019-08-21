@@ -9,7 +9,7 @@
     <authors>Frank Skare (stax76)</authors>
     <licenseUrl>https://raw.githubusercontent.com/stax76/mpv.net/master/LICENSE.txt</licenseUrl>
     <projectUrl>https://mpv-net.github.io/mpv.net-web-site/</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/C4illin/Choco-Packages@1/icon/mpvnet-icon.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/img/github.com/C4illin/Choco-Packages/releases/download/1/mpvnet-icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
 #### Based on libmpv
@@ -79,6 +79,7 @@ mpv.net is under active development. Want a feature? Post a [patch](https://gith
     <packageSourceUrl>https://github.com/C4illin/Choco-Packages/tree/master/mpvnet.install</packageSourceUrl>
     <projectSourceUrl>https://github.com/stax76/mpv.net</projectSourceUrl>
     <docsUrl>https://github.com/stax76/mpv.net/blob/master/Manual.md</docsUrl>
+    <bugTrackerUrl>https://github.com/stax76/mpv.net/issues</bugTrackerUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

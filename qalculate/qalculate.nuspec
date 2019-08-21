@@ -7,7 +7,7 @@
     <title>Qalculate!</title>
     <owners>C4illin</owners>
     <authors>Hanna Knutsson</authors>
-    <licenseUrl>https://raw.githubusercontent.com/Qalculate/libqalculate/master/COPYING</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/Qalculate/qalculate-gtk/master/COPYING</licenseUrl>
     <projectUrl>https://qalculate.github.io/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/C4illin/Choco-Packages@1/icon/qalculate-icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,12 +17,13 @@ Qalculate! is a multi-purpose cross-platform desktop calculator. It is simple to
 Gnuplot is required for plotting.
     </description>
     <summary>the ultimate desktop calculator</summary>
-    <releaseNotes>https://github.com/Qalculate/libqalculate/releases</releaseNotes>
+    <releaseNotes>https://github.com/Qalculate/qalculate-gtk/releases</releaseNotes>
     <copyright />
     <tags>qalculate qalculate! calculator calculation algebra</tags>
     <packageSourceUrl>https://github.com/C4illin/Choco-Packages/tree/master/qalculate</packageSourceUrl>
     <projectSourceUrl>https://github.com/Qalculate</projectSourceUrl>
     <docsUrl>https://qalculate.github.io/manual/index.html</docsUrl>
+    <bugTrackerUrl>https://github.com/Qalculate/qalculate-gtk/issues</bugTrackerUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

@@ -5,8 +5,8 @@
 <br/>
 
 ### Download stats:
-[![](https://img.shields.io/chocolatey/dt/qalculate)](https://chocolatey.org/packages/qalculate)
-[![](https://img.shields.io/chocolatey/dt/airexplorer)](https://chocolatey.org/packages/airexplorer)
-[![](https://img.shields.io/chocolatey/dt/mpvnet.install)](https://chocolatey.org/packages/mpvnet.install)
+[![](https://img.shields.io/chocolatey/dt/qalculate?label=qalculate)](https://chocolatey.org/packages/qalculate)
+[![](https://img.shields.io/chocolatey/dt/airexplorer?label=airexplorer)](https://chocolatey.org/packages/airexplorer)
+[![](https://img.shields.io/chocolatey/dt/mpvnet.install?label=mpv.net)](https://chocolatey.org/packages/mpvnet.install)
 
-[![](https://data.jsdelivr.com/v1/package/gh/C4illin/Choco-Packages/badge)](https://www.jsdelivr.com/package/gh/C4illin/Choco-Packages)
+<!-- [![](https://data.jsdelivr.com/v1/package/gh/C4illin/Choco-Packages/badge)](https://www.jsdelivr.com/package/gh/C4illin/Choco-Packages) -->

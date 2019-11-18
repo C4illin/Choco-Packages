@@ -17,7 +17,7 @@ function global:au_BeforeUpdate() {
 
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases
-    $version = $download_page.ParsedHtml.querySelector(".motivo_descarga").children[3].outerText -split " " | select -last 1
+    $version = $download_page.ParsedHtml.querySelector(".elementor-element-39f4fd2").querySelector("h3").outerText -split " " | select -last 1
 
     @{
         URL     = $url

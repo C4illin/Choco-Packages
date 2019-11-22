@@ -74,7 +74,7 @@ mpv.net is under active development. Want a feature? Post a [patch](https://gith
     </description>
     <summary>mpv.net is a modern media player for Windows that works just like mpv.</summary>
     <releaseNotes>https://github.com/stax76/mpv.net/releases</releaseNotes>
-    <copyright>Copyright (c) 2017-2019 Frank Skare (stax76)</copyright>
+    <copyright>2017-2019 Frank Skare (stax76)</copyright>
     <tags>video-player audio-player libmpv youtube-dl media-player mpv mediainfo</tags>
     <packageSourceUrl>https://github.com/C4illin/Choco-Packages/tree/master/mpvnet.install</packageSourceUrl>
     <projectSourceUrl>https://github.com/stax76/mpv.net</projectSourceUrl>

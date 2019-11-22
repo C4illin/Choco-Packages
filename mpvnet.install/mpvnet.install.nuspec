@@ -9,7 +9,7 @@
     <authors>Frank Skare (stax76)</authors>
     <licenseUrl>https://raw.githubusercontent.com/stax76/mpv.net/master/LICENSE.txt</licenseUrl>
     <projectUrl>https://mpv-net.github.io/mpv.net-web-site/</projectUrl>
-    <iconUrl>https://cdn.statically.io/img/github.com/C4illin/Choco-Packages/releases/download/1/mpvnet-icon.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/C4illin/Choco-Packages/d66d2b22e65f687dff722e8d898b1b56673ca951/mpvnet.install/icon/mpvnet-icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
 #### Based on libmpv

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>airexplorer</id>
-    <version>2.6.0</version>
+    <version>2.6.1</version>
     <title>Air Explorer</title>
     <owners>C4illin</owners>
     <authors>Iniciativas Informáticas y de Comunicación</authors>
@@ -50,7 +50,7 @@ OneDrive, OneDrive for Business, Google Drive, Amazon Cloud Drive, 4shared, Box,
     <packageSourceUrl>https://github.com/C4illin/Choco-Packages/tree/master/airexplorer</packageSourceUrl>
     <docsUrl>https://www.airexplorer.net/en/help.php</docsUrl>
     <dependencies>
-      <dependency id="kb2919355"/>
+      <dependency id="kb2919355" />
     </dependencies>
   </metadata>
   <files>

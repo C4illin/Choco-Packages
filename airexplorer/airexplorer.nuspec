@@ -50,7 +50,7 @@ OneDrive, OneDrive for Business, Google Drive, Amazon Cloud Drive, 4shared, Box,
     <packageSourceUrl>https://github.com/C4illin/Choco-Packages/tree/master/airexplorer</packageSourceUrl>
     <docsUrl>https://www.airexplorer.net/en/help.php</docsUrl>
     <dependencies>
-      <dependency id="kb2919355" />
+      <dependency id="kb2919355" version="1.0.20160915"/>
     </dependencies>
   </metadata>
   <files>

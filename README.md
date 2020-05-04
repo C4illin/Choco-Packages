@@ -11,4 +11,6 @@
 
 [![](https://img.shields.io/chocolatey/dt/mpvnet.install?label=mpv.net)](https://chocolatey.org/packages/mpvnet.install)
 
+[![](https://img.shields.io/chocolatey/dt/hybrid?label=hybrid)](https://chocolatey.org/packages/hybrid)
+
 <!-- [![](https://data.jsdelivr.com/v1/package/gh/C4illin/Choco-Packages/badge)](https://www.jsdelivr.com/package/gh/C4illin/Choco-Packages) -->

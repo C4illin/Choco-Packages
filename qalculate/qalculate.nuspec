@@ -18,7 +18,7 @@ Gnuplot is required for plotting.
     </description>
     <summary>the ultimate desktop calculator</summary>
     <releaseNotes>https://github.com/Qalculate/qalculate-gtk/releases</releaseNotes>
-    <copyright>2003–2007, 2008, 2016-2019 Hanna Knutsson</copyright>
+    <copyright>2003–2007, 2008, 2016-2020 Hanna Knutsson</copyright>
     <tags>qalculate qalculate! calculator calculation algebra</tags>
     <packageSourceUrl>https://github.com/C4illin/Choco-Packages/tree/master/qalculate</packageSourceUrl>
     <projectSourceUrl>https://github.com/Qalculate</projectSourceUrl>

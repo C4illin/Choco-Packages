@@ -6,13 +6,13 @@ function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
             "(?i)(^\s*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL)'"
-            "(?i)(^\s*checksum64\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum64)'"
+            "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum)'"
         }
     }
 }
 
 function global:au_BeforeUpdate {
-    $Latest.Checksum64 = Get-RemoteChecksum $Latest.URL
+    $Latest.Checksum = Get-RemoteChecksum $Latest.URL
 }
 
 function global:au_GetLatest {

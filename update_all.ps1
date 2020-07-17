@@ -14,11 +14,16 @@ $Options = [ordered]@{
     PushAll       = $true                                   #Allow to push multiple packages at once
     PluginPath    = ''                                      #Path to user plugins
     IgnoreOn      = @(                                      #Error message parts to set the package ignore status
+      'Origin Time-out'
       'Could not create SSL/TLS secure channel'
       'Could not establish trust relationship'
       'The operation has timed out'
       'Internal Server Error'
       'Service Temporarily Unavailable'
+      'the package version already exists on the repository'
+      'already exists on a Simple OData Server'             # https://github.com/chocolatey/chocolatey.org/issues/613
+      'Conflict'
+      'OutOfMemoryException'
     )
     RepeatOn      = @(                                      #Error message parts on which to repeat package updater
       'Could not create SSL/TLS secure channel'             # https://github.com/chocolatey/chocolatey-coreteampackages/issues/718
@@ -30,11 +35,13 @@ $Options = [ordered]@{
       'Internal Server Error'
       'An exception occurred during a WebClient request'
       'remote session failed with an unexpected state'
+      'the package version already exists on the repository'
+      'already exists on a Simple OData Server'             # https://github.com/chocolatey/chocolatey.org/issues/613
+      'Conflict'
+      'Job returned no object'
     )
-    #RepeatSleep   = 250                                    #How much to sleep between repeats in seconds, by default 0
-    #RepeatCount   = 2                                      #How many times to repeat on errors, by default 1
-    
-    #NoCheckChocoVersion = $true                            #Turn on this switch for all packages
+    #RepeatSleep   = 10                                     #How much to sleep between repeats in seconds, by default 0
+    #RepeatCount   = 5                                      #How many times to repeat on errors, by default 1
 
     Report = @{
         Type = 'markdown'                                   #Report type: markdown or text
@@ -106,8 +113,7 @@ $Options = [ordered]@{
 }
 
 if ($ForcedPackages) { Write-Host "FORCED PACKAGES: $ForcedPackages" }
-$global:au_Root         = $Root          #Path to the AU packages
-$global:au_GalleryUrl   = ''             #URL to package gallery, leave empty for Chocolatey Gallery
+$global:au_Root = $Root                                    #Path to the AU packages
 $global:info = updateall -Name $Name -Options $Options
 
 #Uncomment to fail the build on AppVeyor on any package error

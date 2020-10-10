@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>hybrid</id>
-    <version>2020.08.02.1</version>
+    <version>2020.10.10.1</version>
     <title>Hybrid</title>
     <tags>video audio converter encoder decoder</tags>
     <authors>Selur</authors>

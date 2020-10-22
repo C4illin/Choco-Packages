@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>airexplorer</id>
-    <version>3.0.7</version>
+    <version>4.0.0</version>
     <title>Air Explorer</title>
     <owners>C4illin</owners>
     <authors>Iniciativas Informáticas y de Comunicación</authors>

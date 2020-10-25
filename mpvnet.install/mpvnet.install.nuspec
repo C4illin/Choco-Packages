@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>mpvnet.install</id>
-    <version>5.4.3.0</version>
+    <version>5.4.8.0</version>
     <title>mpv.net</title>
     <owners>C4illin</owners>
     <authors>Frank Skare (stax76)</authors>
@@ -31,10 +31,6 @@ The OSC of libmpv offers play controls with a modern flat design. ([Screenshot](
 #### GPU video decoding
 
 libmpv leverages the FFmpeg hwaccel APIs to support DXVA2 video decoding acceleration.
-
-#### Active development
-
-mpv.net is under active development. Want a feature? Post a [patch](https://github.com/stax76/mpv.net/pulls) or [request it](https://github.com/stax76/mpv.net/issues)!
 
 ### Features
 

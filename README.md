@@ -13,6 +13,6 @@
 
 [![](https://img.shields.io/chocolatey/dt/hybrid?label=hybrid)](https://chocolatey.org/packages/hybrid)
 
-[![](https://img.shields.io/chocolatey/dt/hybrid?label=YouTube Music)](https://chocolatey.org/packages/th-ch-youtube-music)
+[![](https://img.shields.io/chocolatey/dt/hybrid?label=YTMusic)](https://chocolatey.org/packages/th-ch-youtube-music)
 
 <!-- [![](https://data.jsdelivr.com/v1/package/gh/C4illin/Choco-Packages/badge)](https://www.jsdelivr.com/package/gh/C4illin/Choco-Packages) -->

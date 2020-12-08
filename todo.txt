@@ -3,7 +3,7 @@ https://github.com/vaibhavpandeyvpz/apkstudio
 mpv.net portable
 mailbird
 th-ch youtube
-
+https://physlets.org/tracker/
 
 
 # not possible/hard to do

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>th-ch-youtube-music</id>
+		<version>1.7.2</version>
+		<title>YouTube Music</title>
+		<owners>C4illin</owners>
+		<authors>th-ch</authors>
+		<licenseUrl>https://github.com/th-ch/youtube-music/blob/master/license</licenseUrl>
+		<projectUrl>https://github.com/th-ch/youtube-music</projectUrl>
+		<iconUrl>https://rawcdn.githack.com/C4illin/Choco-Packages/94a377cf8b776790c54c1f59400627e2a01a9560/th-ch-youtube-music/icon/th-ch-youtube-music-icon.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+Electron wrapper around YouTube Music featuring:
+- Native look &amp; feel, aims at keeping the original interface
+- Framework for custom plugins: change YouTube Music to your needs (style, content, features), enable/disable plugins in one click
+
+Available plugins:
+- Ad Blocker: block all ads and tracking out of the box
+- Downloader: download to MP3 directly from the interface (youtube-dl)
+- No Google Login: remove Google login buttons and links from the interface
+- Shortcuts: use your usual shortcuts (media keys, Ctrl/CMD + F…) to control YouTube Music
+- Navigation: next/back navigation arrows directly integrated in the interface, like in your favorite browser
+- Auto confirm when paused: when the "Continue Watching?" modal appears, automatically click "Yes"
+- Hide video player: no video in the interface when playing music
+- Notifications: display a notification when a song starts playing
+    </description>
+		<summary>Electron wrapper around YouTube Music</summary>
+		<releaseNotes>https://github.com/th-ch/youtube-music/releases</releaseNotes>
+		<copyright>th-ch</copyright>
+		<tags>youtube music electron</tags>
+		<packageSourceUrl>https://github.com/C4illin/Choco-Packages/tree/master/th-ch-youtube-music</packageSourceUrl>
+		<projectSourceUrl>https://github.com/th-ch/youtube-music</projectSourceUrl>
+		<bugTrackerUrl>https://github.com/th-ch/youtube-music/issues</bugTrackerUrl>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>

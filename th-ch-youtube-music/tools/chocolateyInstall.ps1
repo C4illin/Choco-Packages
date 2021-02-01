@@ -1,4 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
+$toolsDir              = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 
 $packageArgs = @{
   packageName            = 'th-ch-youtube-music'
@@ -11,10 +12,7 @@ $packageArgs = @{
   validExitCodes         = @(0)
 }
 
-$ahkExe = 'AutoHotKey'
 $ahkFile = Join-Path $toolsDir "ytmusicInstall.ahk"
-Start-Process -FilePath $ahkExe `
-              -ArgumentList $ahkFile `
-              -PassThru
+Start-Process -FilePath 'AutoHotKey' -ArgumentList $ahkFile
 
 Install-ChocolateyPackage @packageArgs

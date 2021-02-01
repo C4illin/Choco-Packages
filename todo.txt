@@ -2,7 +2,6 @@ https://github.com/patrickfav/uber-apk-signer
 https://github.com/vaibhavpandeyvpz/apkstudio
 mpv.net portable
 mailbird
-th-ch youtube
 https://physlets.org/tracker/
 
 

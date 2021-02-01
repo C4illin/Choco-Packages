@@ -11,4 +11,10 @@ $packageArgs = @{
   validExitCodes         = @(0)
 }
 
+$ahkExe = 'AutoHotKey'
+$ahkFile = Join-Path $toolsDir "ytmusicInstall.ahk"
+Start-Process -FilePath $ahkExe `
+              -ArgumentList $ahkFile `
+              -PassThru
+
 Install-ChocolateyPackage @packageArgs

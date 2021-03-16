@@ -11,8 +11,4 @@ $packageArgs = @{
   validExitCodes         = @(0)
 }
 
-$toolsDir              = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-$ahkFile = Join-Path $toolsDir "ytmusicInstall.ahk"
-Start-Process -FilePath 'AutoHotKey' -ArgumentList $ahkFile
-
 Install-ChocolateyPackage @packageArgs

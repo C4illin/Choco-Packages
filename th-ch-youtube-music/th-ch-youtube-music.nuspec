@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
 		<id>th-ch-youtube-music</id>
-		<version>1.11.0</version>
+		<version>1.12.1</version>
 		<title>YouTube Music</title>
 		<owners>C4illin</owners>
 		<authors>th-ch</authors>
@@ -33,9 +33,6 @@ Available plugins:
 		<packageSourceUrl>https://github.com/C4illin/Choco-Packages/tree/master/th-ch-youtube-music</packageSourceUrl>
 		<projectSourceUrl>https://github.com/th-ch/youtube-music</projectSourceUrl>
 		<bugTrackerUrl>https://github.com/th-ch/youtube-music/issues</bugTrackerUrl>
-		<dependencies>
-      <dependency id="autohotkey.portable" version="1.1" />
-    </dependencies>
 	</metadata>
 	<files>
 		<file src="tools\**" target="tools" />

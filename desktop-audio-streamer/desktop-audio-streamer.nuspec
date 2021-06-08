@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <tags>audio chromecast music</tags>
+    <authors>SamDel</authors>
+    <copyright>2017 SamDel</copyright> <!-- Years + author -->
+    <iconUrl></iconUrl> <!-- Use a CDN ex. https://githack.com -->
+    <projectUrl>https://github.com/SamDel/ChromeCast-Desktop-Audio-Streamer</projectUrl> <!-- Main url, main page -->
+    <licenseUrl>https://github.com/SamDel/ChromeCast-Desktop-Audio-Streamer/blob/master/LICENSE</licenseUrl> <!-- link to their license -->
+    <projectSourceUrl>https://github.com/SamDel/ChromeCast-Desktop-Audio-Streamer</projectSourceUrl> <!-- Project source code -->
+    <docsUrl>https://github.com/SamDel/ChromeCast-Desktop-Audio-Streamer/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/SamDel/ChromeCast-Desktop-Audio-Streamer/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/SamDel/ChromeCast-Desktop-Audio-Streamer/releases</releaseNotes> <!-- Probably a URL -->
+    <description>This tool captures the audio from your desktop (or microphone) and streams it to a ChromeCast Audio device.</description>
+    <summary>Captures audio and streams it to a ChromeCast Audio device</summary>
+    <id>desktop-audio-streamer</id>
+    <version>3.7</version>    
+    <title>Desktop Audio Streamer</title> <!-- Good looking title -->
+    <packageSourceUrl>https://github.com/C4illin/Choco-Packages/tree/master/desktop-audio-streamer</packageSourceUrl>
+    <!-- Dont change below here -->
+    <owners>C4illin</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

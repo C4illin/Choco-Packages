@@ -5,7 +5,7 @@
     <tags>audio chromecast music</tags>
     <authors>SamDel</authors>
     <copyright>2017 SamDel</copyright> <!-- Years + author -->
-    <iconUrl></iconUrl> <!-- Use a CDN ex. https://githack.com -->
+    <iconUrl>https://rawcdn.githack.com/C4illin/Choco-Packages/01b80a2b99f91bef0483ce770eaf2405a02eb519/desktop-audio-streamer/icon/desktop-audio-streamer-icon.png</iconUrl> <!-- Use a CDN ex. https://githack.com -->
     <projectUrl>https://github.com/SamDel/ChromeCast-Desktop-Audio-Streamer</projectUrl> <!-- Main url, main page -->
     <licenseUrl>https://github.com/SamDel/ChromeCast-Desktop-Audio-Streamer/blob/master/LICENSE</licenseUrl> <!-- link to their license -->
     <projectSourceUrl>https://github.com/SamDel/ChromeCast-Desktop-Audio-Streamer</projectSourceUrl> <!-- Project source code -->

@@ -8,11 +8,16 @@ $packageArgs = @{
   checksumType           = 'sha256'
 }
 
+$fileLocation = Join-Path -Path $env:TEMP -ChildPath "Setup.msi"
+
 $installArgs = @{
+  packageName            = 'desktop-audio-streamer'
   fileType               = 'MSI'
+  file                   = $fileLocation
   silentArgs             = '/qn' # Do touch
   validExitCodes         = @(0)
   softwareName           = 'Desktop Audio Streamer*'
 }
 
 Install-ChocolateyZipPackage @packageArgs
+Install-ChocolateyInstallPackage @installArgs

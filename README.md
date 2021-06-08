@@ -5,14 +5,16 @@
 <br/>
 
 ### Download stats:
-[![](https://img.shields.io/chocolatey/dt/qalculate?label=qalculate)](https://chocolatey.org/packages/qalculate)
+[![](https://img.shields.io/chocolatey/dt/qalculate?label=Qalculate!)](https://chocolatey.org/packages/qalculate)
 
-[![](https://img.shields.io/chocolatey/dt/airexplorer?label=airexplorer)](https://chocolatey.org/packages/airexplorer)
+[![](https://img.shields.io/chocolatey/dt/airexplorer?label=AirExplorer)](https://chocolatey.org/packages/airexplorer)
 
 [![](https://img.shields.io/chocolatey/dt/mpvnet.install?label=mpv.net)](https://chocolatey.org/packages/mpvnet.install)
 
 [![](https://img.shields.io/chocolatey/dt/hybrid?label=hybrid)](https://chocolatey.org/packages/hybrid)
 
 [![](https://img.shields.io/chocolatey/dt/th-ch-youtube-music?label=YTMusic)](https://chocolatey.org/packages/th-ch-youtube-music)
+
+[![](https://img.shields.io/chocolatey/dt/desktop-audio-streamer?label=AudioStreamer)](https://chocolatey.org/packages/desktop-audio-streamer)
 
 <!-- [![](https://data.jsdelivr.com/v1/package/gh/C4illin/Choco-Packages/badge)](https://www.jsdelivr.com/package/gh/C4illin/Choco-Packages) -->

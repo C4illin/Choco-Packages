@@ -23,7 +23,7 @@ function global:au_GetLatest {
 
     $url64  = $download_page.links | ? href -match '.msi$' | % href | select -First 1
     $url32   = $url64 -replace '-x64.msi$', '-i386.msi'
-	$version = ($url64 -split '/' | select -last 1 -skip 1).substring(1)
+	$version = ($url64 -split '/' | select -last 1)  -split '-' | select -first 1 -skip 1
 
     @{
         URL32   = $url32

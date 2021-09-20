@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName            = 'th-ch-youtube-music'
   fileType               = 'EXE'
-  url                    = 'https://github.com/th-ch/youtube-music/releases/download/v1.12.2/YouTube-Music-Setup-1.12.2.exe'
-  checksum               = 'c3ca88b1934a078784b15b6b68121ad34660c1d6d7568513549f8c3713797324'
+  url                    = 'https://github.com/th-ch/youtube-music/releases/download/v1.13.0/YouTube-Music-Setup-1.13.0.exe'
+  checksum               = 'be6f91e3bb92b40150f0b59edb9f87960ce351f1fd77bff2a824180750e86510'
   checksumType           = 'sha256'
   softwareName           = 'YouTube Music*'
   silentArgs             = '/S'

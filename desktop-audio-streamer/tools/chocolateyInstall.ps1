@@ -2,9 +2,9 @@
 
 $packageArgs = @{
   packageName            = 'desktop-audio-streamer'
-  url                    = 'https://github.com/SamDel/ChromeCast-Desktop-Audio-Streamer/files/7290615/Setup.3.8.zip' # Dont touch until do
+  url                    = 'https://github.com/SamDel/ChromeCast-Desktop-Audio-Streamer/files/7778562/Setup.3.9.zip' # Dont touch until do
   unzipLocation          = $env:TEMP
-  checksum               = 'bd09a96164fe75a3b68f38ad76b27933d9757ebf6caaf8e1c3add8d5a529396d'
+  checksum               = 'bc0481ec5f40395bb6512512969b3aaffef9e5a727c5ca8c8fcdc8beb5d73413'
   checksumType           = 'sha256'
 }
 

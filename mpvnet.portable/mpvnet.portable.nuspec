@@ -7,7 +7,7 @@
     <title>mpv.net (Portable)</title>
     <owners>C4illin</owners>
     <authors>Frank Skare (stax76)</authors>
-    <licenseUrl>https://raw.githubusercontent.com/stax76/mpv.net/master/docs/License.txt</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/stax76/mpv.net/master/License.txt</licenseUrl>
     <projectUrl>https://mpv-net.github.io/mpv.net-web-site/</projectUrl>
     <iconUrl>https://rawcdn.githack.com/C4illin/Choco-Packages/d66d2b22e65f687dff722e8d898b1b56673ca951/mpvnet.install/icon/mpvnet-icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -2,8 +2,8 @@
 
 $packageArgs = @{
   packageName            = 'mpvnet.portable'
-  url                    = 'https://github.com/stax76/mpv.net/releases/download/v5.8.0.0/mpv.net-5.8.0.0-beta.zip'
-  checksum               = '683b4f86e2192f8d9ca729bc4992fab4b1f44b248a08eff3e0b5ef4ff22a18b2'
+  url                    = 'https://github.com/stax76/mpv.net/releases/download/v5.9.0.0-beta/mpv.net-5.9.0.0-beta.zip'
+  checksum               = 'f206e435ac9a41fffd865c35b9fdd89228f0a8787194d14fa9b432f33a94d735'
   checksumType           = 'sha256'
   unzipLocation          = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }

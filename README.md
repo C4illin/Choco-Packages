@@ -9,7 +9,7 @@
 
 [![](https://img.shields.io/chocolatey/dt/airexplorer?label=AirExplorer)](https://chocolatey.org/packages/airexplorer)
 
-[![](https://img.shields.io/chocolatey/dt/mpvnet.install?label=mpv.net)](https://chocolatey.org/packages/mpvnet.install)
+[![](https://img.shields.io/chocolatey/dt/mpv.net?label=mpv.net)](https://chocolatey.org/packages/mpv.net)
 
 [![](https://img.shields.io/chocolatey/dt/hybrid?label=hybrid)](https://chocolatey.org/packages/hybrid)
 

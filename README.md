@@ -15,6 +15,6 @@
 
 [![](https://img.shields.io/chocolatey/dt/th-ch-youtube-music?label=YTMusic)](https://chocolatey.org/packages/th-ch-youtube-music)
 
-[![](https://img.shields.io/chocolatey/dt/desktop-audio-streamer?label=AudioStreamer)](https://chocolatey.org/packages/desktop-audio-streamer)
+<!-- [![](https://img.shields.io/chocolatey/dt/desktop-audio-streamer?label=AudioStreamer)](https://chocolatey.org/packages/desktop-audio-streamer) -->
 
 <!-- [![](https://data.jsdelivr.com/v1/package/gh/C4illin/Choco-Packages/badge)](https://www.jsdelivr.com/package/gh/C4illin/Choco-Packages) -->

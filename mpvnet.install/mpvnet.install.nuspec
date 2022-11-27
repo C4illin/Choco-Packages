@@ -7,7 +7,7 @@
     <title>mpv.net (Install)</title>
     <owners>C4illin</owners>
     <authors>Frank Skare (stax76)</authors>
-    <licenseUrl>https://raw.githubusercontent.com/stax76/mpv.net/master/License.txt</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/mpvnet-player/mpv.net/master/License.txt</licenseUrl>
     <projectUrl>https://mpv-net.github.io/mpv.net-web-site/</projectUrl>
     <iconUrl>https://rawcdn.githack.com/C4illin/Choco-Packages/d66d2b22e65f687dff722e8d898b1b56673ca951/mpvnet.install/icon/mpvnet-icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -94,13 +94,13 @@ Features
 - Update check and update routine
     </description>
     <summary>mpv.net is a modern media player for Windows that works just like mpv.</summary>
-    <releaseNotes>https://github.com/stax76/mpv.net/releases</releaseNotes>
+    <releaseNotes>https://github.com/mpvnet-player/mpv.net/releases</releaseNotes>
     <copyright>2017-2019 Frank Skare (stax76)</copyright>
     <tags>video-player audio-player libmpv youtube-dl media-player mpv mediainfo</tags>
     <packageSourceUrl>https://github.com/C4illin/Choco-Packages/tree/master/mpvnet.install</packageSourceUrl>
-    <projectSourceUrl>https://github.com/stax76/mpv.net</projectSourceUrl>
-    <docsUrl>https://github.com/stax76/mpv.net/blob/master/docs/Manual.md</docsUrl>
-    <bugTrackerUrl>https://github.com/stax76/mpv.net/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/mpvnet-player/mpv.net</projectSourceUrl>
+    <docsUrl>https://github.com/mpvnet-player/mpv.net/blob/master/docs/Manual.md</docsUrl>
+    <bugTrackerUrl>https://github.com/mpvnet-player/mpv.net/issues</bugTrackerUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

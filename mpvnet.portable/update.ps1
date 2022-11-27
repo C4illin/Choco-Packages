@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'https://github.com/stax76/mpv.net/releases'
+$releases = 'https://github.com/mpvnet-player/mpv.net/releases'
 
 function global:au_SearchReplace {
    @{

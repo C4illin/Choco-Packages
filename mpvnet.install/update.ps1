@@ -19,7 +19,8 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $url   = $download_page.links | ? href -match '.exe$' | % href | select -First 1
-	$version = $url -split '/' | select -last 1 -skip 1
+	# $version = $url -split '/' | select -last 1 -skip 1
+    $version = "5.4.9.0"
 
     @{
         URL   = 'https://github.com' + $url

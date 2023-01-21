@@ -14,8 +14,9 @@ function global:au_BeforeUpdate { }
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url   = $download_page.links | Where-Object href -match '.zip$' | ForEach-Object href | Select-Object -First 1
-	$version = ($url -split '/' | Select-Object -last 1 -skip 1) -replace 'v'
+    $urlcomp = $download_page.links | Where-Object href -match '/releases/tag/v' | ForEach-Object href | Select-Object -First 1
+    $version = ($urlcomp -split '/' | Select-Object -last 1) -replace 'v'
+    $url = ($urlcomp -replace '/tag/', '/download/') + '/mpv.net-' + $version + '.zip'
 
     @{
         URL   = 'https://github.com' + $url

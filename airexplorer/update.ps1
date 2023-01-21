@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'https://www.airexplorer.net/en/download.php'
+$releases = 'https://www.airexplorer.net/en/download/'
 $url      = 'https://www.airexplorer.net/downloads/AirExplorer-OnlineInstaller.exe'
 
 function global:au_SearchReplace {

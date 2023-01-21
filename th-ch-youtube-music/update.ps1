@@ -17,9 +17,11 @@ function global:au_BeforeUpdate() {
 
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $urltemp  = $download_page.links | ? href -match '.exe$' | % href | select -first 1
+    $version = ($urltemp -split '/' | select -last 1 -skip 1).substring(1)
 
-    $url  = $download_page.links | ? href -match '.exe$' | % href | select -first 1 -skip 1
-	$version = ($url -split '/' | select -last 1 -skip 1).substring(1)
+    $url = $urltemp -replace 'YouTube-Music-', 'YouTube-Music-Setup-'
+    
 
     @{
         URL   = 'https://github.com' + $url

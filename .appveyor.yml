@@ -25,10 +25,10 @@ environment:
 
   # Mail credentials - for error notifications
   mail_user:
-    secure: 4aag0OJSPOT8YajE554v4/iLGV98q+b4OpFGtw7niFE=
+    secure: qKNK2OjDT84V99NaC9PGbw==
   mail_pass:
-    secure: gXiEvDL/OWIS0sCTvJZqyg==
-  mail_server: mail.cock.li
+    secure: DRQ6ZeiJfrwneE52GB2+V6vz3LF6Xs8I8lj6R6pIzOmhghJlnh2zn0b5SFmYGBewp7wHbCikAlxsTwQq38W7UQ==
+  mail_server: smtp.eu.mailgun.org
   mail_port: 587
   mail_enablessl: true
 
@@ -104,7 +104,8 @@ artifacts:
 
 notifications:
 - provider: Email
-  to: $(mail_user)
+  to:
+    secure: tgiAYjZZkefxXGcb13vgGUiShjZ7XF9w/koxmylv6q8=
   on_build_success: false
   on_build_failure: true
   on_build_status_changed: true

@@ -22,6 +22,13 @@ function global:au_GetLatest {
 	# $version = $url -split '/' | select -last 1 -skip 1
     $version = "5.4.9.0"
 
+    # if url is empty return /mpvnet-player/mpv.net/releases/download/5.4.9.0/mpv.net-5.4.9.0-setup.exe
+
+
+    if ($null -eq $url) {
+        $url = "/mpvnet-player/mpv.net/releases/download/5.4.9.0/mpv.net-5.4.9.0-setup.exe"
+    }
+
     @{
         URL   = 'https://github.com' + $url
         Version = $version

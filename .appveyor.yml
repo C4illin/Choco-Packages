@@ -104,8 +104,7 @@ artifacts:
 
 notifications:
 - provider: Email
-  to:
-    secure: tgiAYjZZkefxXGcb13vgGUiShjZ7XF9w/koxmylv6q8=
+  to: notification@emrik.org
   on_build_success: false
   on_build_failure: true
   on_build_status_changed: true

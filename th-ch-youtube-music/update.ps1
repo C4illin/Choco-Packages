@@ -23,7 +23,7 @@ function global:au_GetLatest {
 
     @{
         URL   = $url
-        Version = $version
+        Version = $version -replace 'v'
     }
 }
 

@@ -15,3 +15,4 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
+Install-BinFile -Name qalc -Path "C:\Program Files\Qalculate\qalc.exe"

@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'https://github.com/th-ch/youtube-music/releases'
+$releases = 'https://api.github.com/repos/th-ch/youtube-music/releases/latest'
 
 function global:au_SearchReplace {
    @{
@@ -16,15 +16,12 @@ function global:au_BeforeUpdate() {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-    $urltemp  = $download_page.links | ? href -match '.exe$' | % href | select -first 1
-    $version = ($urltemp -split '/' | select -last 1 -skip 1).substring(1)
-
-    $url = $urltemp -replace 'YouTube-Music-', 'YouTube-Music-Setup-'
-    
+    $response = Invoke-RestMethod -Uri $releases
+    $asset = $response.assets | Where-Object { $_.name -like "*.exe" } | Select-Object -Skip 1 -First 1
+    $url = $asset.browser_download_url
 
     @{
-        URL   = 'https://github.com' + $url
+        URL   = $url
         Version = $version
     }
 }

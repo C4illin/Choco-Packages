@@ -19,6 +19,7 @@ function global:au_GetLatest {
     $response = Invoke-RestMethod -Uri $releases
     $asset = $response.assets | Where-Object { $_.name -like "*.exe" } | Select-Object -Skip 1 -First 1
     $url = $asset.browser_download_url
+    $version = $url -split '/' | Select-Object -Skip 1 -Last 1
 
     @{
         URL   = $url

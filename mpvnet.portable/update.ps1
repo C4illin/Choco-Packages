@@ -20,7 +20,7 @@ function global:au_GetLatest {
 
     $urlcomp = $download_page.links | Where-Object href -match '/releases/tag/v' | ForEach-Object href | Select-Object -First 1
     $version = ($urlcomp -split '/' | Select-Object -last 1)
-    $url = ($urlcomp -replace '/tag/', '/download/') + '/mpv.net-' + $version + '.zip'
+    $url = ($urlcomp -replace '/tag/', '/download/') + '/mpv.net-' + $version + '-portable.zip'
 
     @{
         URL   = 'https://github.com' + $url

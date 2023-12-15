@@ -89,7 +89,7 @@ Features
     <tags>video-player audio-player libmpv youtube-dl media-player mpv mediainfo</tags>
     <packageSourceUrl>https://github.com/C4illin/Choco-Packages/tree/master/mpv.net</packageSourceUrl>
     <projectSourceUrl>https://github.com/mpvnet-player/mpv.net</projectSourceUrl>
-    <docsUrl>https://github.com/mpvnet-player/mpv.net/blob/master/docs/Manual.md</docsUrl>
+    <docsUrl>https://github.com/mpvnet-player/mpv.net/blob/main/docs/manual.md</docsUrl>
     <bugTrackerUrl>https://github.com/mpvnet-player/mpv.net/issues</bugTrackerUrl>
     <dependencies>
       <dependency id="mpvnet.portable" version="7.0.0.1-beta" />

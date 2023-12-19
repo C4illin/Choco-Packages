@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName            = 'mpvnet.install'
   fileType               = 'EXE'
-  url                    = 'https://github.com/mpvnet-player/mpv.net/releases/download/v7.0.0.3-beta/mpv.net-v7.0.0.3-beta-setup.exe'
-  checksum               = 'cc4f015f1fe83734012f21f2da432156d41f69a65cc3332667d4c9044b5ddfa6'
+  url                    = 'https://github.com/mpvnet-player/mpv.net/releases/download/v7.0.0.4-beta/mpv.net-v7.0.0.4-beta-setup.exe'
+  checksum               = '6990966a773efce5af5ed5e920e6109489bae53987208406b866ebd191eedf46'
   checksumType           = 'sha256'
   checksumType64         = 'sha256'
   softwareName           = 'mpv.net*'

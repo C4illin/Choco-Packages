@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName            = 'hybrid'
   fileType               = 'EXE'
-  url                    = 'http://www.selur.de/sites/default/files/hybrid_downloads/Hybrid_2023.12.22.1_SETUP.exe'
-  checksum               = '4640cd885e6889d68a30b1cb4293494961e7052d3b92b8c7eed9b6e8d21fd8e4'
+  url                    = 'http://www.selur.de/sites/default/files/hybrid_downloads/Hybrid_2024.01.12.1_SETUP.exe'
+  checksum               = 'a231016de5f511417a0c1f32d5de2dbf92e12b8aa4034beabeefa4093f1d29fe'
   checksumType           = 'sha256'
   softwareName           = 'Hybrid*'
   silentArgs             = '/VERYSILENT'

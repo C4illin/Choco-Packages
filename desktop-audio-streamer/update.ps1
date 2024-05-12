@@ -18,8 +18,8 @@ function global:au_BeforeUpdate() {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url  = $download_page.links | ? href -match '.zip$' | % href | select -first 1
-	$version = ($url -split '/' | select -last 1).substring(6,3)
+    $url  = $download_page.links | Where-Object href -match '.zip$' | ForEach-Object href | Select-Object -first 1
+    $version = (($url -split '/' | Select-Object -last 1) -replace '[^\d.]', '').Trim('.')
 
     @{
         URL   = $url

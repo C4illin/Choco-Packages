@@ -20,7 +20,7 @@ function global:au_GetLatest {
 
     $urlcomp = $download_page.links | Where-Object href -match '/releases/tag/v' | ForEach-Object href | Select-Object -First 1
     $version = ($urlcomp -split '/' | Select-Object -last 1)
-    $url = 'https://github.com' + ($urlcomp -replace '/tag/', '/download/') + '/mpv.net-' + $version + '-setup.exe'
+    $url = 'https://github.com' + ($urlcomp -replace '/tag/', '/download/') + '/mpv.net-' + $version + '-setup-x64.exe'
     
 
     # test if the url exists

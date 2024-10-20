@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>mpv.net</id>
-    <version>7.1.1.2-beta</version>
+    <version>7.1.1.3-beta</version>
     <title>mpv.net</title>
     <owners>C4illin</owners>
     <authors>Frank Skare (stax76)</authors>
@@ -92,7 +92,7 @@ Features
     <docsUrl>https://github.com/mpvnet-player/mpv.net/blob/main/docs/manual.md</docsUrl>
     <bugTrackerUrl>https://github.com/mpvnet-player/mpv.net/issues</bugTrackerUrl>
     <dependencies>
-      <dependency id="mpvnet.portable" version="7.1.1.2-beta" />
+      <dependency id="mpvnet.portable" version="7.1.1.3-beta" />
     </dependencies>
   </metadata>
   <files>

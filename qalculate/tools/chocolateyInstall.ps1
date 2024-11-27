@@ -10,7 +10,7 @@ $packageArgs = @{
   checksumType           = 'sha256'
   checksumType64         = 'sha256'
   softwareName           = 'Qalculate!*'
-  silentArgs             = '/qn'
+  silentArgs             = '/qn /norestart /l*v `"$($Env:TEMP)\$($packageName).$($Env:chocolateyPackageVersion).MsiInstall.log`"'
   validExitCodes         = @(0)
 }
 

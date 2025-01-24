@@ -65,8 +65,8 @@ $packageArgs = @{
   checksumType64         = 'sha256'
   softwareName           = 'Qalculate!*'
   silentArgs             = "/qn /norestart /l*v ${chocoPkgInstallLogFile}"
-  validExitCodes         = @(0)
+  validExitCodes         = @(0, 3010)
 }
 
 Install-ChocolateyPackage @packageArgs
-Install-BinFile -Name qalc -Path "C:\Program Files\Qalculate\qalc.exe"
+Install-BinFile -Name qalc -Path "${Env:ProgramFiles}\Qalculate\qalc.exe"

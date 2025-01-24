@@ -1,4 +1,8 @@
-import-module au
+# SPDX-FileCopyrightText: © 2018–2021, Emrik Östling <hi@emrik.org>
+# SPDX-FileCopyrightText: © 2025, Peter J. Mello <admin@petermello.net>
+#
+# SPDX-License-Identifier: MIT
+Import-Module -Name AU
 
 $releases = 'https://github.com/Qalculate/qalculate-gtk/releases'
 
@@ -21,9 +25,11 @@ function global:au_BeforeUpdate() {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url64  = $download_page.links | ? href -match '.msi$' | % href | select -First 1
+    $url64  = $download_page.links | Where-Object href -match '.msi$' |
+                  ForEach-Object href | Select-Object -First 1
     $url32   = $url64 -replace '-x64.msi$', '-i386.msi'
-	$version = ($url64 -split '/' | select -last 1)  -split '-' | select -first 1 -skip 1
+	$version = ($url64 -split '/' | Select-Object -last 1)  -split '-' |
+                  Select-Object -first 1 -skip 1
 
     @{
         URL32   = $url32
@@ -32,4 +38,4 @@ function global:au_GetLatest {
     }
 }
 
-update -ChecksumFor all
+Update-Package -ChecksumFor all

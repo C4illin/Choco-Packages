@@ -15,7 +15,7 @@
     <description>This tool captures the audio from your desktop (or microphone) and streams it to a ChromeCast Audio device.</description>
     <summary>Captures audio and streams it to a ChromeCast Audio device</summary>
     <id>desktop-audio-streamer</id>
-    <version>5.4</version>    
+    <version>5.5</version>    
     <title>Desktop Audio Streamer</title> <!-- Good looking title -->
     <packageSourceUrl>https://github.com/C4illin/Choco-Packages/tree/master/desktop-audio-streamer</packageSourceUrl>
     <!-- Dont change below here -->

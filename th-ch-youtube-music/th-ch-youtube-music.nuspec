@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
 		<id>th-ch-youtube-music</id>
-		<version>3.8.1</version>
+		<version>3.9.0</version>
 		<title>YouTube Music</title>
 		<owners>C4illin</owners>
 		<authors>th-ch</authors>

@@ -27,7 +27,7 @@ if (${key}.Count -eq 1) {
     $silentArgs = "$($_.PSChildName) ${silentArgs}"
   }
   Uninstall-ChocolateyPackage @packageArgs
-  Uninstall-BinFile -Name qalc -Path "${Env:ProgramFiles}\Qalculate\qalc.exe"
+  Uninstall-BinFile -Name qalc -Path "${Env:ProgramFiles}\Qalculate\${Env:chocolateyPackageVersion}\qalc.exe"
 } elseif (${key}.Count -eq 0) {
   Write-Warning "${packageName} has already been uninstalled by other means."
 } elseif (${key}.Count -gt 1) {

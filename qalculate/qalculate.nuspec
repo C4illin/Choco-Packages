@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
   SPDX-FileCopyrightText: © 2018–2020, Emrik Östling <hi@emrik.org>
   SPDX-FileCopyrightText: 🄯 2025, Peter J. Mello <admin@petermello.net>
@@ -52,14 +52,14 @@ and percent calculation.
   of previous results in new expressions
 - Arbitrary precision with both rational and floating point numbers
 - Complex and infinite numbers
-- Both exact and approximate output: _√32 = 4 × √2 ≈ 5.657_
-- Simple and mixed fractions: _4 / 6 × 2 = 1.333… = 4/3 = 1⅓_
+- Both exact and approximate output: `√32 = 4 × √2 ≈ 5.657`
+- Simple and mixed fractions: `4 / 6 × 2 = 1.333… = 4/3 = 1⅓`
 - All common number bases, as well as negative and non-integer radices, Roman
   numerals, etc.
 - Reverse Polish Notation (RPN) input mode
 - Function plotting (separate installation of Gnuplot required; available as
   Chocolatey package
-  [`gnuplot`](https://community.chocolatey.org/packages/gnuplot))
+  [gnuplot](https://community.chocolatey.org/packages/gnuplot))
 - Two user-friendly graphical interfaces (your choice of GTK+- or Qt-based)
 - Powerful command line interface with its own intuitively-parsed REPL
 
@@ -68,7 +68,7 @@ and percent calculation.
 - Factorization and simplification
 - Differentiation and integration
 - Propagation of uncertainty and interval arithmetic
-- Customizable assumptions: _㏑(2𝑥) where 𝑥 &gt; 0 = ㏑(2) + ㏑(𝑥)_
+- Customizable assumptions: `㏑(2𝑥) where 𝑥 &gt; 0 = ㏑(2) + ㏑(𝑥)`
 
 ### Functions
 
@@ -86,13 +86,13 @@ and percent calculation.
 
 - Over 400 diverse units with all standard decimal and binary prefixes
 - All SI, Imperial, CGS, atomic and natural units
-- Automatic or explicit conversion: _1ft + 1yd + 1m = 2.2192m, 5kg × m/s² = 5N,
-  5m/s to mph = 11.18mph_
+- Automatic or explicit conversion: `1ft + 1yd + 1m = 2.2192m, 5kg × m/s² = 5N,
+  5m/s to mph = 11.18mph`
 - Currency conversion with daily updated exchange rates
 
 ### Variables and constants
 
-- All common basic constants, including π, e, φ, etc.
+- All common basic constants, including `π`, `e`, `φ`, etc.
 - Fundamental physical constants with 2022 CODATA values, including standard
   uncertainty and optional units
 - Data sets with objects and associated properties, e.g. chemical elements
@@ -100,7 +100,7 @@ and percent calculation.
     <releaseNotes>
 ## Qalculate! v5.8.1 (2025-10-27)
 
-- Show error when function or variable disabled by "--disable-insecure" is used
+- Show error when function or variable disabled by `--disable-insecure` is used
 - Improve interpretation of function expressions with x, y or z in object names
   ("𝑥 year") or within quotation marks
 - Windows: Fix infinite loop during factorization

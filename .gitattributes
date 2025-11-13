@@ -1,0 +1,17 @@
+# SPDX-FileCopyrightText: 🄯 2025, Peter J. Mello <admin@petermello.net>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+*                      text  diff merge linguist-detectable working-tree-encoding=UTF-8
+
+*.license              text  diff merge linguist-documentation eol=lf working-tree-encoding=UTF-8
+*.md                   text  diff=markdown merge eol=lf working-tree-encoding=UTF-8 linguist-language=Markdown
+*.nuspec               text  diff=html merge eol=crlf working-tree-encoding=UTF-8 linguist-language=XML
+*.png                 -text -diff linguist-documentation merge=binary
+*.ps1                  text  diff merge eol=crlf working-tree-encoding=UTF-8 linguist-language=PowerShell
+*.txt                  text  diff merge linguist-detectable
+*.yml                  text  diff merge eol=lf working-tree-encoding=UTF-8 linguist-language=YAML
+
+.gitattributes         text  diff merge export-ignore eol=lf working-tree-encoding=UTF-8 linguist-language=gitattributes
+.gitignore             text  diff merge export-ignore eol=lf working-tree-encoding=UTF-8 linguist-language=ignore
+LICENSE**              text  diff merge linguist-documentation eol=lf working-tree-encoding=UTF-8

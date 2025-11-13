@@ -3,11 +3,13 @@
 #
 # SPDX-License-Identifier: MIT
 
-$ErrorActionPreference = 'Stop'
+$ErrorActionPreference  = 'Stop'
 
-$chocoPkgInstallLogFile = (Join-Path -Path "${Env:TEMP}" `
-  -ChildPath "${packageName}-${Env:chocolateyPackageVersion}-MsiInstall.log")
-$chocoPkgInstallLogDir = (Split-Path "${chocoPkgInstallLogFile}" -Parent)
+$chocoPkgNameVer        = "${packageName}-${Env:chocolateyPackageVersion}"
+$chocoPkgInstallLogFile = (
+  Join-Path -Path "${Env:TEMP}" -ChildPath "${chocoPkgNameVer}-MsiInstall.log"
+)
+$chocoPkgInstallLogDir  = (Split-Path "${chocoPkgInstallLogFile}" -Parent)
 
 function Test-PkgInstallLogDirWritable {
   [CmdletBinding()]
@@ -48,7 +50,7 @@ function Set-PkgInstallLogDirWritable {
 }
 
 if (Test-PkgInstallLogDirWritable -Directory "${chocoPkgInstallLogDir}") {
-  Write-Information "Logging directory exists and is writable; proceeding with installation…"
+  Write-Information "Log directory is writable; proceeding with installation…"
 } elseif (Set-PkgInstallLogDirWritable -Directory "${chocoPkgInstallLogDir}") {
   Write-Error "Unable to change logging directory permissions; aborting…"
   Exit 1
@@ -57,16 +59,13 @@ if (Test-PkgInstallLogDirWritable -Directory "${chocoPkgInstallLogDir}") {
 $packageArgs = @{
   packageName            = 'qalculate'
   fileType               = 'MSI'
-  url                    = 'https://github.com/Qalculate/libqalculate/releases/download/v5.8.0/qalculate-5.8.0-i386.msi'
-  url64bit               = 'https://github.com/Qalculate/libqalculate/releases/download/v5.8.0/qalculate-5.8.0-x64.msi'
-  checksum               = '3e271e1a3d3f1c84baceda9103f515cae8a648af3b109cc1088551f5056b33f0'
-  checksum64             = '509bcd9e7cd459ae6a33f661ed24704a361bbe56a7288880e5107fdc511349c1'
-  checksumType           = 'sha256'
+  silentArgs             = "/qn /norestart /l*v ${chocoPkgInstallLogFile}"
+  url64bit               = 'https://github.com/Qalculate/libqalculate/releases/download/v5.8.1/qalculate-5.8.1-x64.msi'
+  validExitCodes         = @(0, 3010)
+  checksum64             = 'd532315116fc3743bf947705c23000e977c44a0f5feeca9db6db27df2cb64ba4'
   checksumType64         = 'sha256'
   softwareName           = 'Qalculate!*'
-  silentArgs             = "/qn /norestart /l*v ${chocoPkgInstallLogFile}"
-  validExitCodes         = @(0, 3010)
 }
 
 Install-ChocolateyPackage @packageArgs
-Install-BinFile -Name qalc -Path "${Env:ProgramFiles}\Qalculate\qalc.exe"
+Install-BinFile -Name qalc -Path "${Env:ProgramFiles}\Qalculate\${Env:chocolateyPackageVersion}\qalc.exe"

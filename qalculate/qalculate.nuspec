@@ -13,7 +13,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>qalculate</id>
-    <version>5.8.1</version>
+    <version>5.8.2</version>
     <owners>C4illin, RogueScholar</owners>
     <title>Qalculate!</title>
     <summary>The ultimate desktop calculator</summary>

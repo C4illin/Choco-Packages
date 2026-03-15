@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: © 2018–2019, Emrik Östling <hi@emrik.org>
+#
+# SPDX-License-Identifier: MIT
+
 *.nupkg
 update_vars.ps1
 Update-AUPackages.md

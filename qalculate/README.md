@@ -1,7 +1,7 @@
 # [![Qalculate icon][pkgIcon] Qalculate! Chocolatey Package][chocoPkgQalculate]
 
 <!--
-  SPDX-FileCopyrightText: 🄯 2025, Peter J. Mello <admin@petermello.net>
+  SPDX-FileCopyrightText: © 2025–2026, Peter J. Mello <admin@petermello.net>
 
   SPDX-License-Identifier: CC0-1.0
 -->
@@ -96,8 +96,11 @@ conforms to the [FSFE REUSE Specification, version 3.3][reuseSpecification].
 [pkgIcon]: ./icon/qalculate.svg "Qalculate!"
 [qalculateWebSite]: https://qalculate.github.io/ "Qalculate! Official Home Page"
 [reuseCompliantBadge]: https://img.shields.io/badge/REUSE-compliant-brightgreen?logo=spdx&logoColor=4398cc&logoSize=auto&cacheSeconds=7200
-[reuseSpecification]: https://reuse.software/ "Free Software Foundation Europe REUSE Software Specification"
-[screenshotHistory]: ./screenshots/qalculate-history.png "Qalculate! GTK+ GUI history panel"
-[screenshotKeypad]: ./screenshots/qalculate-keypad.png "Qalculate! GTK+ GUI keypad panel"
+[reuseSpecification]: https://reuse.software/
+  "Free Software Foundation Europe REUSE Software Specification"
+[screenshotHistory]: ./screenshots/qalculate-history.png
+  "Qalculate! GTK+ GUI history panel"
+[screenshotKeypad]: ./screenshots/qalculate-keypad.png
+  "Qalculate! GTK+ GUI keypad panel"
 [validSvgBadge]: https://www.w3.org/Icons/valid-svg11
 [w3cValidator]: https://validator.w3.org/check?uri=referer

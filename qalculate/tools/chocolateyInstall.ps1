@@ -1,5 +1,5 @@
 ﻿# SPDX-FileCopyrightText: © 2018–2023, Emrik Östling <hi@emrik.org>
-# SPDX-FileCopyrightText: © 2024–2025, Peter J. Mello <admin@petermello.net>
+# SPDX-FileCopyrightText: © 2024–2026, Peter J. Mello <admin@petermello.net>
 #
 # SPDX-License-Identifier: MIT
 
@@ -68,4 +68,4 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
-Install-BinFile -Name qalc -Path "${Env:ProgramFiles}\Qalculate\${Env:chocolateyPackageVersion}\qalc.exe"
+Install-BinFile -Name qalc -Path "${Env:ProgramFiles}\Qalculate\qalc.exe"

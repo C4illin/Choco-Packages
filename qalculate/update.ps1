@@ -1,5 +1,5 @@
 ﻿# SPDX-FileCopyrightText: © 2018–2021, Emrik Östling <hi@emrik.org>
-# SPDX-FileCopyrightText: © 2025, Peter J. Mello <admin@petermello.net>
+# SPDX-FileCopyrightText: © 2025–2026, Peter J. Mello <admin@petermello.net>
 #
 # SPDX-License-Identifier: MIT
 

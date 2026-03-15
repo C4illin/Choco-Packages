@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
   SPDX-FileCopyrightText: © 2018–2020, Emrik Östling <hi@emrik.org>
-  SPDX-FileCopyrightText: 🄯 2025, Peter J. Mello <admin@petermello.net>
+  SPDX-FileCopyrightText: © 2025–2026, Peter J. Mello <admin@petermello.net>
 
   SPDX-License-Identifier: MIT
 --><!-- ⚠ Do not remove this test for UTF-8! ⚠
@@ -20,46 +20,37 @@
     <tags>algebra arithmetic calculation calculator graphing math qalculate</tags>
     <packageSourceUrl>https://github.com/C4illin/Choco-Packages/tree/master/qalculate</packageSourceUrl>
     <projectUrl>https://qalculate.github.io/</projectUrl>
-    <licenseUrl>https://github.com/Qalculate/qalculate-gtk?tab=GPL-2.0-1-ov-file#GPL-2.0-1-ov-file</licenseUrl>
+    <licenseUrl>https://github.com/Qalculate/qalculate-gtk?tab=GPL-2.0-1-ov-file</licenseUrl>
     <iconUrl>https://rawcdn.githack.com/C4illin/Choco-Packages/cbef2fa2f26e4bfc7a21b0f17fa53de59cb861ef/qalculate/icon/qalculate-icon.png</iconUrl>
     <authors>Hanna Knutsson</authors>
-    <copyright>© 2003–2025, Hanna Knutsson</copyright>
+    <copyright>© 2003–2026, Hanna Knutsson</copyright>
     <projectSourceUrl>https://github.com/Qalculate</projectSourceUrl>
     <docsUrl>https://qalculate.github.io/manual/index.html</docsUrl>
     <bugTrackerUrl>https://github.com/Qalculate/qalculate-gtk/issues</bugTrackerUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
-Qalculate! is a multi-purpose cross-platform desktop calculator. It is simple to
-use but provides power and versatility normally reserved for complicated math
-packages, as well as useful tools for everyday needs—such as currency conversion
-and percent calculation.
+Qalculate! is a multi-purpose, cross-platform desktop calculator application. It is simple to use but provides power and versatility normally reserved for complicated math packages, as well as useful tools for everyday needs—such as currency conversion and percent calculation.
 
 ## Notable features
 
 ### General
 
-- All common mathematical operations – performed on any combination of numbers,
-  constants, functions, units, variables, matrices, vectors and time/dates:
+- All common mathematical operations – performed on any combination of numbers, constants, functions, units, variables, matrices, vectors and time/dates:
   + Arithmetic
   + Bitwise
   + Element-wise
   + Equalities / inequalities
   + Logical
 - Fault-tolerant and flexible input parsing with verbose error/warning messages
-- Flexible expression entry with customizable completion, function/parameter
-  hints and continuous on-the-fly evaluation of parsed expression
-- History list with comment support, individual entry protection, search and use
-  of previous results in new expressions
+- Flexible expression entry with customizable completion, function/parameter hints and continuous on-the-fly evaluation of parsed expression
+- History list with comment support, individual entry protection, search and use of previous results in new expressions
 - Arbitrary precision with both rational and floating point numbers
 - Complex and infinite numbers
-- Both exact and approximate output: `√32 = 4 × √2 ≈ 5.657`
-- Simple and mixed fractions: `4 / 6 × 2 = 1.333… = 4/3 = 1⅓`
-- All common number bases, as well as negative and non-integer radices, Roman
-  numerals, etc.
+- Both exact and approximate output: `√3¯2¯ = 4 × √2¯ ≈ 5.657`
+- Simple and mixed fractions: `(4/6) × 2 = 1.3¯ = 4/3 = 1⅓`
+- All common number bases, as well as negative and non-integer radices, Roman numerals, etc.
 - Reverse Polish Notation (RPN) input mode
-- Function plotting (separate installation of Gnuplot required; available as
-  Chocolatey package
-  [gnuplot](https://community.chocolatey.org/packages/gnuplot))
+- Function plotting (separate installation of Gnuplot required; available as Chocolatey package [gnuplot](https://community.chocolatey.org/packages/gnuplot))
 - Two user-friendly graphical interfaces (your choice of GTK+- or Qt-based)
 - Powerful command line interface with its own intuitively-parsed REPL
 
@@ -68,7 +59,7 @@ and percent calculation.
 - Factorization and simplification
 - Differentiation and integration
 - Propagation of uncertainty and interval arithmetic
-- Customizable assumptions: `㏑(2𝑥) where 𝑥 &gt; 0 = ㏑(2) + ㏑(𝑥)`
+- Customizable assumptions: `㏑(2𝑥) where 𝑥 > 0 = ㏑(2) + ㏑(𝑥)`
 
 ### Functions
 
@@ -86,25 +77,81 @@ and percent calculation.
 
 - Over 400 diverse units with all standard decimal and binary prefixes
 - All SI, Imperial, CGS, atomic and natural units
-- Automatic or explicit conversion: `1ft + 1yd + 1m = 2.2192m, 5kg × m/s² = 5N,
-  5m/s to mph = 11.18mph`
+- Automatic or explicit conversion: `1ft + 1yd + 1m = 2.2192m, 5kg × m/s² = 5N, 5m/s to mph = 11.18mph`
 - Currency conversion with daily updated exchange rates
 
 ### Variables and constants
 
 - All common basic constants, including `π`, `e`, `φ`, etc.
-- Fundamental physical constants with 2022 CODATA values, including standard
-  uncertainty and optional units
+- Fundamental physical constants with 2022 CODATA values, including standard uncertainty and optional units
 - Data sets with objects and associated properties, e.g. chemical elements
     </description>
     <releaseNotes>
+## Qalculate! v5.9.0 (2026-01-19)
+
+- Improve speed of `sort()`, `rank()` and `mode()` functions and their dependents
+- Parse ± before implicit multiplication when not preceded by a number (e.g. "7km ± 5m")
+- Always consider `x^(a+b)` equivalent to `x^a × x^b` (fixes `x^(y+z) − x^y × x^z`)
+- Simplify `(x = a || x ≥ a + 1)` and `(x ≤ a || x ≥ a + 1)` and similar when x and a are integers (fixes `abs(x−1) = abs(1−x)`)
+- Do not remove duplicate white-space characters from text strings (i.e. anything wrapped in quotation marks)
+- Fix floating point conversion when comma is used as decimal separator
+- Fix (almost) endless loop with increasingly complex equations in some cases when `x+x^(1/a)` is transformed to `x = (b−x)^a`
+- Fix and improve `function()` function
+- Fix crash on Windows during output of extremely small or large (> 10^323228497) floating point number
+- All interfaces  (CLI, GTK+ and Qt):
+  + Do not show calculate-as-you-type result for incomplete object name (e.g. "integ" interpreted as "int(e×g)")
+- Graphical user interfaces (GTK+ and Qt):
+  + Both:
+    * Avoid display of completion list for non-decimal numbers, text arguments and x, y, z
+    * Add `--update-exchange-rates` command-line option
+  + GTK+ (classic):
+    * Add option to show expression field below result
+    * Make result widget height customizable in preferences
+    * Preserve result copied to clipboard after exit
+    * Fix tab completion when pressing shortcut key multiple times
+  + Qt (new):
+    * Place expression field below history by default
+    * Optional custom button column in keypad (four buttons shown regardless of keypad type)
+    * Calculate-as-you-type improvements and fixes
+    * Improve automatic digit groups in input for non-decimal numbers and group sizes other than three
+    * Fix tooltips for warning and flag in result when expression is placed below history
+- Command-line interface:
+  + Ellipsize large matrices and vectors when a subset of output, e.g. in a failed function
+  + Provide completion hints for commands and options
+  + Do not show result for variable assignment when --terse and --file are used
+
+## Qalculate! v5.8.2 (2025-11-17)
+
+- Restore default unversioned installation path on Windows
+- Add new functions: `reshape()`, `circshift()` and `replacePart()`
+- Rename `mergevectors()` and `area()` functions to `slice()` and `part()`
+- Add `v[i, …]=…` syntax for assignment of part of matrix/vector variable
+- Improve language handling for functions, units and variables
+- Limit the range of supported arguments in `bessely`, `besselj`, `binomial` and `igamma` functions to avoid segmentation fault and very slow, un-abortable calculations
+- Do not try to calculate exact result using automatic approximation for expressions with iterative functions
+- Fix segmentation fault with entry-wise operation on column vector and an empty vector
+- Fix handling of single quotation marks
+- Graphical user interfaces (GTK+ and Qt):
+  + Both: Highlight unmatched parenthesis with red color
+  + GTK+ (classic):
+    * Add option to colorize background of highlighted parenthesis when light theme is used
+  + Qt (new):
+    * Make digit group size and separator customizable
+    * Add option to enable/disable checking for new versions
+    * Add optional compact variant of parsed expression in history
+    * Add new default adaptive calculate-as-you-type delay (without delay, in most cases)
+    * Improve decision to not do calculate-as-you-type or not show result of it
+- Command-line interface:
+  + Add option to change the default currency
+  + Limit time used for dual calculation with `time` command-line argument to same limit as without
+  + Fix use of "ignore locale" and "language" keywords in command-line arguments
+
 ## Qalculate! v5.8.1 (2025-10-27)
 
 - Show error when function or variable disabled by `--disable-insecure` is used
-- Improve interpretation of function expressions with x, y or z in object names
-  ("𝑥 year") or within quotation marks
+- Improve interpretation of function expressions with x, y or z in object names ("𝑥 year") or within quotation marks
 - Windows: Fix infinite loop during factorization
-- GUIs:
+- Graphical user interfaces (GTK+ and Qt):
   + Both: Add option to change default currency
   + GTK+ (classic):
     * Add options to customize digit group size and separator
@@ -112,9 +159,8 @@ and percent calculation.
   + Qt (new):
     * Add option to show expression status in status bar
     * Make status bar font customizable
-    * Colorize icons if button text color provides insufficient contrast with
-      default icon color
-- CLI:
+    * Colorize icons if button text color provides insufficient contrast with default icon color
+- Command-line interface:
   + New completion method with matches selectable from numbered list
   + Fix crash after factorization with calculate-on-the-fly or RPN modes enabled
   + Fix failure to save settings because of missing configuration directory
@@ -122,8 +168,7 @@ and percent calculation.
 
 ## Previous entries
 
-Previous changelog entries are available at
-[qalculate.github.io](https://qalculate.github.io/news.html).
+Previous changelog entries are available at [qalculate.github.io](https://qalculate.github.io/news.html).
     </releaseNotes>
   </metadata>
   <files>

@@ -13,7 +13,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>qalculate</id>
-    <version>5.9.0</version>
+    <version>5.10.0</version>
     <owners>C4illin, RogueScholar</owners>
     <title>Qalculate!</title>
     <summary>The ultimate desktop calculator</summary>
@@ -59,7 +59,7 @@ Qalculate! is a multi-purpose, cross-platform desktop calculator application. It
 - Factorization and simplification
 - Differentiation and integration
 - Propagation of uncertainty and interval arithmetic
-- Customizable assumptions: `㏑(2𝑥) where 𝑥 > 0 = ㏑(2) + ㏑(𝑥)`
+- Customizable assumptions: `㏑(2𝑥) where 𝑥 &gt; 0 = ㏑(2) + ㏑(𝑥)`
 
 ### Functions
 
@@ -97,7 +97,7 @@ Qalculate! is a multi-purpose, cross-platform desktop calculator application. It
 - Fix floating point conversion when comma is used as decimal separator
 - Fix (almost) endless loop with increasingly complex equations in some cases when `x+x^(1/a)` is transformed to `x = (b−x)^a`
 - Fix and improve `function()` function
-- Fix crash on Windows during output of extremely small or large (> 10^323228497) floating point number
+- Fix crash on Windows during output of extremely small or large (&gt; 10^323228497) floating point number
 - All interfaces  (CLI, GTK+ and Qt):
   + Do not show calculate-as-you-type result for incomplete object name (e.g. "integ" interpreted as "int(e×g)")
 - Graphical user interfaces (GTK+ and Qt):

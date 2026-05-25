@@ -60,9 +60,9 @@ $packageArgs = @{
   packageName            = 'qalculate'
   fileType               = 'MSI'
   silentArgs             = "/qn /norestart /l*v ${chocoPkgInstallLogFile}"
-  url64bit               = 'https://github.com/Qalculate/libqalculate/releases/download/v5.10.0/qalculate-5.10.0-x64.msi'
+  url64bit               = 'https://github.com/Qalculate/libqalculate/releases/download/v5.11.0/qalculate-5.11.0-x64.msi'
   validExitCodes         = @(0, 3010)
-  checksum64             = '7fb5c5aa22ddcfcda9ae001e52c0e0675686a4726a0035c9850ca2aea118c6b6'
+  checksum64             = '419f9c0e75cad0fd08ac0314294345aadf2358287a08879c5710ce6393de593e'
   checksumType64         = 'sha256'
   softwareName           = 'Qalculate!*'
 }
